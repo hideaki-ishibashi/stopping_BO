@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stopping_bo"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+GPy = "^1.10.0"
+tqdm = "^4.64.0"
+sklearn = "^0.0"
+GPyOpt = "^1.2.6"
+matplotlib = "^3.5.1"
+pandas = "^1.4.2"
+joblib = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
