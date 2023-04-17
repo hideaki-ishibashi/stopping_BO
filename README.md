@@ -28,6 +28,23 @@ Our code uses Python3.10.2 and the following packages:
 - tomli           2.0.1   A lil' TOML parser
 - tqdm            4.64.0  Fast, Extensible Progress Meter
 
+If you use poetry and pyenv, you can install the packages by running:
+
+```
+pyenv install 3.10.2
+git clone https://github.com/hideaki-ishibashi/stopping_BO.git
+cd stopping_BO
+poetry env use ~/.pyenv/versions/3.10.2/bin/python
+poetry install
+```
+Otherwise, you can install the packages by running:
+
+```
+git clone https://github.com/hideaki-ishibashi/stopping_BO.git
+cd stopping_BO
+pip install -r requirements.txt
+```
+
 ## A brief overview of construction of our code
 
 - `run_test_funct_optimization.py` and `run_HPO.py`
