@@ -61,7 +61,7 @@ Our code uses Python3.10.2 and the following packages:
 - main code
     - The experiment of test function can be reproduced by changing the function_name in run_BO_test_function.py. Note that budget is set to 400 in holder_table function and set to 200 in other functions.
         - function_name
-            - "holder_table", "cross_in_tray", "six_hump_camel"
+            - "holder_table", "cross_in_tray", "six_hump_camel", "easom", "rosenbrock", "booth". 
     - The experiment of test function can be reproduced by changing the model_name and data_name in run_HPO.py.
         - model_name
             - classification : "logistic","svc","rfc". 
